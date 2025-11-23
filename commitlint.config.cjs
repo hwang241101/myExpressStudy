@@ -5,7 +5,5 @@ module.exports = {
     "scope-enum": [2, "always", ["ui", "env", "test"]],
     "scope-empty": [2, "never"],
     "subject-empty": [2, "never"],
-
-    // test
   },
 };

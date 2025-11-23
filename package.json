@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
+    "husky:commit-msg": "commitlint --edit \"$1\"",
+    "husky:pre-commit": "npm run format:fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./index.js",
     "_comment": "dev는 npm run dev로 실행됨",

@@ -33,3 +33,4 @@ git 올릴때 .env는 올리지말것. 서버정보가들어잇음
 - husky : 
 - commitlint : 
 
+// test

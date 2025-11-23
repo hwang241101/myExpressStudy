@@ -9,3 +9,4 @@ export default {
     "subject-empty": [2, "never"],
   },
 };
+// test

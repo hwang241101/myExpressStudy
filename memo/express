@@ -33,4 +33,16 @@ git 올릴때 .env는 올리지말것. 서버정보가들어잇음
 - husky : 
 - commitlint : 
 
-// test
+- 커밋 메시지 컨벤션 - 커밋메시지를 강제
+<type>(optional scope): <des>
+type : feat, fix, docs ...
+scope : ui, login, ...
+description : 설명
+예 : feat(ui): 메인개시판 ui수정
+예 : fix(login): 로그인페이지수정 #1125
+
+
+- commonlint 역할 : 커밋 메시지 검사기
+
+
+- husky 역할 : Git 훅 자동 실행기

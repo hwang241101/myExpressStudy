@@ -1,0 +1,4 @@
+{
+  "watch": ["index.js", "src/"],
+  "ignore": ["node_modules/", "test/", "spec/", "lib/", "output/", "dist/"]
+}

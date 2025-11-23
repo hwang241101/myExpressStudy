@@ -1,0 +1,34 @@
+express 공부
+
+- 런타임이란
+1. 실행중
+2. 런타임 인바이런먼트(환경)
+
+node.js !== framework
+node.js === runtime env
+
+node.js는 자바스크립트를 해석하고 기계어로바꿈
+
+- 프로그래밍어론
+js를 받아서 node.js가 컴파일한다
+
+- 함수와 화살표 함수의 차이
+
+- 노드 개발자란?
+    1. 웹
+    2. 배치
+    3. 백엔드
+    다할수잇음
+
+    node version manager이므로 버전변경가능하게하는것
+    LTS 란 : long term support로 안정적인 버전
+
+
+- ESLint config가져오기
+npm install -D eslint eslint-config-google
+
+- nodemon : 서버를 재실행하지않고 변경사항을 업뎃해준다
+
+git 올릴때 .env는 올리지말것. 서버정보가들어잇음
+- husky : 
+- commitlint : 

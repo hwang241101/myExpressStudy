@@ -1,10 +1,8 @@
-import { rules } from "eslint-config-airbnb-base";
-
-export default {
+module.exports = {
   extends: ["@commitlint/config-conventional"],
   rules: {
     "type-enum": [2, "always", ["feat", "fix", "docs"]],
-    "scope-enum": [2, "always", ["ui", "logic", "env"]],
+    "scope-enum": [2, "always", ["ui", "env", "test"]],
     "scope-empty": [2, "never"],
     "subject-empty": [2, "never"],
   },
